@@ -17,7 +17,7 @@ public class ArrayListTrain {
 		//Cast needed to creat a variable when the List has no String specification
 		String firstObjecti = (String) myList.get(0);
 		
-		//Print Array
+		//Printing Array
 		Iterator iterator = myList.iterator();
 		while(iterator.hasNext()){
 			System.out.println(iterator.next());

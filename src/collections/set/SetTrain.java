@@ -1,8 +1,9 @@
 package collections.set;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.stream.Stream;
+import java.util.TreeSet;
 
 public class SetTrain {
 
@@ -10,6 +11,9 @@ public class SetTrain {
 		//Unordered collection of unique elements
 		
 		Set<String> set = new HashSet<>();
+		Set<String> set2 = new LinkedHashSet();
+	  	Set<String> set3 = new TreeSet();
+
 		
 		set.add("First object");
 		set.add("Second object");

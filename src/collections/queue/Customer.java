@@ -1,4 +1,4 @@
-package collections.map;
+package collections.queue;
 
 public class Customer {
 	
@@ -24,7 +24,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer: " + customerID + ", name= " + name ;
+		return "Name = " + name ;
 	}
 	
 	

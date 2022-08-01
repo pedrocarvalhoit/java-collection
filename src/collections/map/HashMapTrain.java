@@ -34,11 +34,18 @@ public class HashMapTrain {
  		System.out.println(map3);
  		
  		//ForEach loop
- 		System.out.println("---Foreach");
+ 		System.out.println("---Foreach:");
  		for(String key: map3.keySet()) {
  			System.out.println(key);
  			System.out.println(map3.get(key));
  		}
+ 		
+ 		//Printing with Lambda
+ 		System.out.println("---Lambda:");
+ 		map3.entrySet().forEach(c -> {
+ 			System.out.println(c.getKey() +  " = " + c.getValue());
+ 		});
+ 		
  		
  		//Checking if map contains
  		System.out.println("---Contains");

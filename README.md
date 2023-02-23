@@ -12,4 +12,5 @@ The examples contained in this repository include:
 - TreeSet: examples of how to create and manipulate sets with natural or programmer-defined ordering.
 - HashMap: examples of how to create and manipulate maps with no defined order.
 - TreeMap: examples of how to create and manipulate maps with natural or programmer-defined ordering.
+- How to manipulate Collections
 
